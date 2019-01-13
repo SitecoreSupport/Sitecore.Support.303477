@@ -1,0 +1,10 @@
+﻿<Sitecore>
+  <Publishing>
+    <Services>
+      <IncrementalPublishHandler>
+        <Type>Sitecore.Support.Framework.Publishing.PublishJobQueue.Handlers.IncrementalPublishHandler, Sitecore.Support.303477</Type>
+        <As>Sitecore.Framework.Publishing.PublishJobQueue.IPublishJobHandler, Sitecore.Framework.Publishing.Service.Abstractions</As>
+      </IncrementalPublishHandler>
+    </Services>
+  </Publishing>
+</Sitecore>
