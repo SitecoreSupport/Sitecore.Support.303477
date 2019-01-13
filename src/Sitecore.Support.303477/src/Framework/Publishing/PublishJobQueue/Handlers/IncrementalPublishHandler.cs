@@ -171,12 +171,12 @@ namespace Sitecore.Support.Framework.Publishing.PublishJobQueue.Handlers
           errorSource,
           targetId);
 
-      targetPublishStream = new DeferredItemsTargetProducer(
+      targetPublishStream = new Sitecore.Support.Framework.Publishing.ManifestCalculation.TargetProducers.DeferredItemsTargetProducer(
           targetPublishStream,
           publishContext.SourceStore.GetSourceIndex(),
           targetIndex,
           errorSource,
-          _loggerFactory.CreateLogger<DeferredItemsTargetProducer>());
+          _loggerFactory.CreateLogger<Sitecore.Support.Framework.Publishing.ManifestCalculation.TargetProducers.DeferredItemsTargetProducer>());
 
       var invalidCloneItemsStream = new CloneSourceValidationTargetProducer(
           publishContext.SourceStore.Name,
