@@ -61,7 +61,14 @@ namespace Sitecore.Support.Framework.Publishing.ManifestCalculation.TargetProduc
           {
             try
             {
-              if (!ctx.IsValid)
+              // root item is always present in target database and shouldn't be re-published
+              if (ctx.Id.Equals(Guid.Parse("{11111111-1111-1111-1111-111111111111}")))
+              {
+                return;
+              }
+
+              // Make sure items with no parent ID are treated as invalid items.
+              if (!ctx.IsValid || !ctx.AsValid().Candidate.ParentId.HasValue)
               {
                 if (!_invalidsCandidateIds.Contains(ctx.Id))
                 {
