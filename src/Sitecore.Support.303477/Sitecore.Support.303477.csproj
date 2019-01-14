@@ -43,46 +43,54 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Hosting">
+      <HintPath>..\..\lib\Microsoft.AspNetCore.Hosting.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      <HintPath>..\..\lib\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Html.Abstractions">
+      <HintPath>..\..\lib\Microsoft.AspNetCore.Html.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Common.Extensions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Common.Extensions.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Conditions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Conditions.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Common.Extensions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Common.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Configuration.Extensions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Configuration.Extensions.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Conditions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Conditions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Eventing.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Eventing.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Configuration.Extensions, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Configuration.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Publishing">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Publishing.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Eventing.Abstractions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Eventing.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Publishing.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Publishing.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Publishing, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Publishing.Data">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Publishing.Data.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Publishing.Abstractions, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Framework.Publishing.Service.Abstractions">
-      <HintPath>C:\inetpub\wwwroot\publishing.service311\Sitecore.Framework.Publishing.Service.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Publishing.Data, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.1\lib\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sitecore.Publishing.Service">
-      <HintPath>..\packages\SPS.Sitecore.Publishing.Service.3.1.1\lib\Sitecore.Publishing.Service.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Framework.Publishing.Service.Abstractions, Version=3.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.Service.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data.DataSetExtensions" />
